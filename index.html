@@ -9,14 +9,40 @@
 
 <style>
 
-.profile-pic{
-width:100px;
-height:100px;
+.hero-content{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero-image img{
+width:280px;
+height:280px;
 border-radius:50%;
 object-fit:cover;
-border:5px solid white;
-margin-bottom:25px;
-box-shadow:0 10px 25px rgba(0,0,0,0.3);
+border:6px solid rgba(255,255,255,.2);
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+@media(max-width:768px){
+
+.hero-content{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-image img{
+width:220px;
+height:220px;
+}
+
 }
 
 *{
@@ -171,6 +197,7 @@ color:#cbd5e1;
 
     <h2>
     Global Production & Studio Operations Leader
+    24+ Years | Team Scaling to 200+ Professionals | Delivery Excellence
     </h2>
 
     <p>
@@ -179,6 +206,33 @@ color:#cbd5e1;
     driving delivery excellence, and leading global programs across
     CGI, VFX, immersive, digital and marketing production.
     </p>
+
+    <section>
+<div class="container">
+
+<h2 class="section-title">Selected Achievements</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>200+</h3>
+<p>Professionals Led Across Production, CGI, VFX and Operations</p>
+</div>
+
+<div class="card">
+<h3>24+</h3>
+<p>Years Building and Scaling Creative & Technical Teams</p>
+</div>
+
+<div class="card">
+<h3>30%</h3>
+<p>Operational Efficiency Improvements Through Process Optimization</p>
+</div>
+
+<div class="card">
+<h3>Global</h3>
+<p>Cross-Functional Leadership Across International Markets</p>
+</div>
 
     <a class="btn" href="Shekhaar_Dooshi_Resume_2026.pdf">
         Download Resume
